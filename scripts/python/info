@@ -1,0 +1,15 @@
+# python info
+
+# installing modules
+sudo apt-get install python-psutil
+
+# what version is module x?
+pip (tool for installing and managing python packages)
+pip list
+...snip
+psutil (5.4.3)
+
+# modules path:
+/home/ames/.local/lib/python2.7/site-packages
+
+

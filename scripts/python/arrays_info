@@ -1,0 +1,15 @@
+## python array info ##
+
+a = ["one", "two", 3]
+print a[2] # 3
+
+>>> a = ["this is A", 'this is b', "1 2 3 4", [5, "next", 'one more time']]
+>>> print a[3][1]
+next
+>>> 
+
+>>> a = "break this up into pieces".split()
+>>> print a[3]
+into
+>>> 
+

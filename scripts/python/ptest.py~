@@ -1,0 +1,10 @@
+#!/usr/bin/python
+
+# testing out psutil
+
+import psutil
+
+for proc in psutil.process_iter(attrs=['pid', 'name', 'cmdline']):
+#    print(proc.info)
+    if proc.name == 'xterm':
+        print "hello"
